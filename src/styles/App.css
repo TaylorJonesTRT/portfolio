@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   background-color: var(--primary);
+  color: #ffffff;
 }
 
 .App {
@@ -28,6 +29,16 @@ body {
   background-color: var(--primary);
 }
 
+/* site navigation */
+.menu-navigation {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Home page */
 .hero {
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
@@ -53,6 +64,7 @@ body {
   text-transform: up;
 }
 
+/* About Page */
 .first-section {
   width: 100vw;
   height: 100vh;
@@ -69,11 +81,18 @@ body {
   padding: 10px;
   font-size: 1em;
 }
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
 .languages {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-gap: 40px;
+  grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
   padding-top: 50px;
 }
@@ -86,6 +105,7 @@ body {
     drop-shadow(1px 1px 0px rgba(255, 255, 255, 0.1)) drop-shadow(1px 1px 0px rgba(255, 255, 255, 0.2));
 }
 
+/* Projects Page */
 .projects-section {
   width: 100vw;
   height: 100vh;

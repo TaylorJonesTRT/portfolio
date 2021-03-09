@@ -1,5 +1,8 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/self-closing-comp */
 import React from 'react';
+import LongMenu from './components/Menu';
 import './styles/App.css';
 import memoryGameImg from './images/projects/memory-game.png';
 import cvAppImg from './images/projects/cv-application.png';
@@ -56,6 +59,7 @@ const App = () => {
   document.title = 'Taylor Jones';
   return (
     <div className="App">
+      <LongMenu />
       <div className="hero">
         <div className="logo-area">
           <div className="name">
