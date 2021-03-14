@@ -42,53 +42,23 @@ body {
   background-color: var(--secondary);
 }
 
-.left-side {
-  background-color: var(--primary);
-  width: 100%;
-  height: 25%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondary);
-}
-
-.header {
-  width: 100%;
-}
-.header h1 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 2.3em;
-  margin: 10px 0;
-}
-.header h2 {
-  font-size: 1.1em;
-  margin-top: 15px;
-}
-.navigation {
-  margin-top: 40px;
-}
-.navigation li {
-  padding: 0 15px;
-}
-.navigation a {
-  color: var(--secondary);
-  text-decoration: none;
-}
-.navigation a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.right-side {
+.body {
   background-color: var(--secondary);
   width: 100%;
   height: auto;
   padding-top: 50px;
+  color: var(--primary);
 }
 .body p {
   padding: 30px;
   font-size: 1.3em;
+}
+.body a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.body a:hover {
+  text-decoration: underline;
 }
 .social {
   display: flex;
@@ -97,6 +67,36 @@ body {
 .social div {
   padding-right: 30px;
 }
+
+.projects {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.project {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.project img {
+  margin-top: 10px;
+  width: 50%;
+  height: auto;
+  box-shadow: 0 1px 5px var(--primary);
+}
+.project p {
+  padding: 15px 0 0 0 !important;
+  font-size: 1em;
+}
+.project hr {
+  background-color: var(--primary);
+  width: 100%;
+  height: 1px !important;
+  border: 0;
+  margin-top: 50px;
+}
+
 /* For Tablets */
 @media screen and (min-width: 768px) {
 }
