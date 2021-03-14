@@ -6,6 +6,7 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb",
+        "plugin:import/typescript",
         "prettier",
         "prettier/react"
     ],
@@ -20,10 +21,12 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "import"
     ],
     "rules": {
         "prettier/prettier": "error",
-        "react/jsx-filename-extension": "off" 
+        "react/jsx-filename-extension": "off",
+        "import/extensions": "off" 
     }
 }
