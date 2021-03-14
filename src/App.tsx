@@ -1,30 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Header from './components/Header';
 import './styles/App.css';
 
 const App = () => (
   <div className="App">
-    <div className="left-side">
-      <div className="header">
-        <h1>Taylor Jones</h1>
-        <h2>Fullstack TypeScript Developer</h2>
-        <ul className="navigation">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          -
-          <li>
-            <a href="/projects">Projects</a>
-          </li>
-          -
-          <li>
-            <a href="/Blog">Blog</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div className="right-side">
+    <Header />
+    <div className="body">
       <p>I&apos;m Taylor</p>
       <p>I like horror movies and TypeScript</p>
       <p>I love to make mobile first web applications with React.</p>
