@@ -4,6 +4,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Header from './components/Header';
 import './styles/App.css';
 
+// Todo: Need to bring back the contents of header back into here (but still leave the component intact)
+// Todo: So that different styles can be applied depending on the page taht is being viewed
 const App = () => (
   <div className="App">
     <Header />
@@ -12,7 +14,7 @@ const App = () => (
       <p>I like horror movies and TypeScript</p>
       <p>I love to make mobile first web applications with React.</p>
       <p>
-        Currently for hire | <a href="mailto:taylor@taylorwjones.com">taylor@taylorwjones.com</a>
+        Currently for hire - <a href="mailto:taylor@taylorwjones.com">taylor@taylorwjones.com</a>
       </p>
       <div className="social">
         <div className="icon">
