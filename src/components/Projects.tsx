@@ -5,6 +5,8 @@ import memoryGameImg from '../images/projects/memory-game.png';
 
 const Projects = () => {
   const projects = [
+    // todo: add the rest of the projects to the this array and then caputure portfolio worth
+    // todo: screen grabs to use for the projects
     {
       name: 'Portfolio',
       image: portfolioHomeImg,

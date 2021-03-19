@@ -169,11 +169,15 @@ body {
 .projects {
   padding-left: 30px;
   padding-right: 30px;
+  width: 55%;
 }
 .project {
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
+}
+.project h2 {
+  color: var(--link);
 }
 .project img {
   margin-top: 10px;
@@ -183,7 +187,7 @@ body {
 }
 .project p {
   padding: 15px 0 0 0 !important;
-  font-size: 1em;
+  font-size: 1.12em;
 }
 .project hr {
   background-color: var(--primary);
@@ -242,9 +246,5 @@ body {
     padding: 0 !important;
     width: 100%;
     text-align: left;
-  }
-
-  .projects {
-    width: 45%;
   }
 }
