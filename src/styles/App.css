@@ -37,6 +37,12 @@ body {
   overflow-x: hidden;
 }
 
+.Home-App {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--secondary);
+}
+
 .App {
   height: 100vh;
   width: 100vw;
@@ -59,13 +65,15 @@ body {
 }
 .header h1 {
   font-family: 'Roboto Mono', monospace;
-  font-size: 2.3em;
+  font-size: 2em;
   margin: 10px 0;
+  letter-spacing: 10px;
 }
 .header h2 {
   color: var(--headerH2);
   font-size: 1.1em;
   margin-top: 15px;
+  letter-spacing: 5px;
 }
 .navigation {
   margin-top: 40px;
@@ -79,6 +87,55 @@ body {
 }
 .navigation a:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+.hor-header {
+  background-color: var(--primary);
+  width: 100% !important;
+  min-height: 140px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.logo-area {
+  width: 100%;
+}
+.logo-area h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.3em;
+  padding-top: 30px;
+}
+.hor-navigation {
+  margin-top: 20px;
+}
+.hor-navigation li {
+  padding: 0 15px;
+}
+.hor-navigation a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+.hor-navigation a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-body {
+  background-color: var(--secondary);
+  width: 100%;
+  height: auto;
+  color: var(--primary);
+}
+.home-body p {
+  padding: 30px;
+  font-size: 1.3em;
+}
+.home-body a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.home-body a:hover {
   text-decoration: underline;
 }
 
@@ -102,10 +159,11 @@ body {
 }
 .social {
   display: flex;
-  padding: 30px;
+  padding-left: 30px;
 }
 .social div {
   padding-right: 30px;
+  padding-top: 10%;
 }
 
 .projects {
@@ -115,8 +173,6 @@ body {
 .project {
   padding-top: 30px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   flex-wrap: wrap;
 }
 .project img {
@@ -135,34 +191,60 @@ body {
   height: 1px !important;
   border: 0;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* For Tablets */
 @media screen and (min-width: 768px) {
+  .Home-App {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .left-side {
+    width: 60%;
+    height: 100%;
+    text-align: right;
+  }
+  .header {
+    padding-right: 5%;
+  }
+
+  .home-body {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 2%;
+  }
+  .home-body p {
+    padding: 5% 0 !important;
+  }
+
+  .body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    padding: 0 !important;
+  }
 }
 
 /* For Desktops */
 @media screen and (min-width: 1024px) {
-  .App {
-    display: flex;
-  }
-  .left-side {
-    width: 65%;
-    height: 100%;
-    justify-self: flex-start;
-  }
-
-  .header h1 {
-    font-size: 3.2em;
-  }
-  .header h2 {
-    font-size: 1.5em;
-  }
-
   .body {
-    width: 35%;
-    height: 100%;
-    margin-top: 13%;
-    justify-self: flex-end;
+    margin-top: 50px !important;
+    padding: 0 !important;
+    width: 100%;
+    text-align: left;
+  }
+
+  .projects {
+    width: 45%;
   }
 }

@@ -1,11 +1,10 @@
 import React from 'react';
 
 const Header = () => (
-  <div className="left-side">
-    <div className="header">
+  <div className="hor-header">
+    <div className="logo-area">
       <h1>Taylor Jones</h1>
-      <h2>Fullstack TypeScript Developer</h2>
-      <ul className="navigation">
+      <ul className="hor-navigation">
         <li>
           <a href="/">Home</a>
         </li>
