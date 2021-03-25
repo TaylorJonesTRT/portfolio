@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import portfolioHomeImg from '../images/projects/portfolio-home.png';
-import memoryGameImg from '../images/projects/memory-game.png';
+import memoryGameImg from '../images/projects/memorygameapp.png';
+import cvAppImg from '../images/projects/cvapp.png';
+import weatherAppImg from '../images/projects/weatherapp.png';
+import todoAppImg from '../images/projects/todoapp.png';
 
 const Projects = () => {
   const projects = [
-    // todo: add the rest of the projects to the this array and then caputure portfolio worth
-    // todo: screen grabs to use for the projects
+    // todo: add the rest of the projects to the this array
+    // todo: capture portfolio worthy screenshots of the projects
     {
       name: 'Portfolio',
       image: portfolioHomeImg,
@@ -16,6 +19,21 @@ const Projects = () => {
     {
       name: 'Memory Game',
       image: memoryGameImg,
+      description: 'test',
+    },
+    {
+      name: 'CV Application',
+      image: cvAppImg,
+      description: 'test',
+    },
+    {
+      name: 'Weather App',
+      image: weatherAppImg,
+      description: 'test',
+    },
+    {
+      name: 'ToDO',
+      image: todoAppImg,
       description: 'test',
     },
   ];

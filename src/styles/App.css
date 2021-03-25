@@ -248,3 +248,50 @@ body {
     text-align: left;
   }
 }
+
+/* For Desktops */
+@media screen and (min-width: 2560px) {
+  .header h1 {
+    font-size: 5em;
+  }
+  .header h2 {
+    font-size: 2em;
+    letter-spacing: 15px;
+  }
+
+  .navigation {
+    font-size: 2em;
+  }
+
+  .home-body p {
+    font-size: 2em;
+  }
+
+  .hor-header {
+    height: 200px;
+  }
+
+  .logo-area h1 {
+    font-size: 3.5em;
+  }
+  .hor-navigation {
+    font-size: 1.5em;
+  }
+
+  .projects {
+    width: 65%;
+  }
+  .projects h1 {
+    font-size: 3.5em;
+  }
+
+  .project h2 {
+    font-size: 2.5em;
+  }
+  .project img {
+    width: 80%;
+  }
+  .project p {
+    font-size: 1.8em;
+  }
+}
