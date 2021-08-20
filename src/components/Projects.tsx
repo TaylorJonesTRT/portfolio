@@ -11,7 +11,7 @@ const Projects = () => {
     // todo: add the rest of the projects to the this array
     // todo: capture portfolio worthy screenshots of the projects
     {
-      name: 'Portfolio',
+      name: 'My Personal Portfolio',
       image: portfolioHomeImg,
       description:
         'This website you are on right now is written mobile first. The website was bootstraped by create-react-app. I took advantage of FontAwesomes icons on the homepage and here on the projects page with the language badges shown above every project. The wep app itself is built using ReactJS and functional components. It utilizes react-router to serve multiple "pages" on a single page application. In the future (soon) it will be transitioned to NextJS and have a backend setup with Node to power a blog system with a fully featured admin panel.',
