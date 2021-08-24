@@ -55,11 +55,11 @@ const Projects = () => {
           <h1>Projects</h1>
           {projects.map((project) => (
             <div className="project" key={project.name}>
-              <h2>{project.name}</h2>
-              <div className="break" />
               <a href={project.github_link}>
-                <img src={project.image} alt={project.name} />
+                <h2>{project.name}</h2>
               </a>
+              <div className="break" />
+              <img src={project.image} alt={project.name} />
               <div className="break" />
               <p className="project-desc">{project.description}</p>
               <hr />
