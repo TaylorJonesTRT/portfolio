@@ -8,7 +8,7 @@ const App = () => (
     <div className="left-side">
       <div className="header">
         <h1>Taylor Jones</h1>
-        <h2>Fullstack TypeScript Developer</h2>
+        <h2>Fullstack Developer</h2>
         <ul className="navigation">
           <li>
             <a href="/">Home</a>
